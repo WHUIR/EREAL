@@ -1,0 +1,11 @@
+{
+    "fsdp_sharding_strategy": 1,
+    "fsdp_offload_params": false,
+    "fsdp_state_dict_type": "FULL_STATE_DICT",
+    "fsdp_backward_prefetch_policy": "BACKWARD_PRE",
+    "fsdp_forward_prefetch": true,
+    "fsdp_transformer_layer_cls_to_wrap": ["LlamaDecoderLayer"],
+    "fsdp_sync_module_states": true,
+    "fsdp_use_orig_params": true,
+    "activation_checkpointing": true
+}

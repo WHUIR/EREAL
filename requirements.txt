@@ -1,0 +1,22 @@
+# Core training/inference stack
+torch>=2.6.0
+transformers>=4.52.4
+deepspeed>=0.16.9
+vllm>=0.8.5
+accelerate>=1.7.0
+trl>=0.9.6
+peft>=0.15.2
+
+# CUDA 12.x runtime
+nvidia-cublas-cu12>=12.4.5
+nvidia-cuda-runtime-cu12>=12.4.127
+nvidia-cudnn-cu12>=9.1.0
+nvidia-nccl-cu12>=2.21.5
+triton>=3.2.0
+
+# Data & serving
+datasets>=3.6.0
+tokenizers>=0.21.1
+fastapi>=0.115
+gradio>=5.31
+openai>=1.84
