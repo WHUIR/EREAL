@@ -1,6 +1,6 @@
 # EREAL: Enhancing Mathematical Reasoning through Error-Aware Learning in Large Language Models
 
-[![Paper](https://img.shields.io/badge/Paper-IPM--D--25--05455-blue)](https://github.com/WHUIR/EREAL)
+[![Paper](https://img.shields.io/badge/Paper-IPM__105197-blue)](https://github.com/WHUIR/EREAL)
 
 Official implementation of **EREAL** (Enhancing Reasoning through Error-Aware Learning), a novel framework that enables LLMs to learn from token-level mistakes for improved mathematical reasoning.
 
