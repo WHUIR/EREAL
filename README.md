@@ -1,6 +1,6 @@
 # EREAL: Enhancing Mathematical Reasoning through Error-Aware Learning in Large Language Models
 
-[![Paper](https://img.shields.io/badge/Paper-IPM__105197-blue)](https://github.com/WHUIR/EREAL)
+[![Paper](https://img.shields.io/badge/Paper-IPM__105197-blue)](https://doi.org/10.1016/j.ipm.2026.105197)
 
 Official implementation of **EREAL** (Enhancing Reasoning through Error-Aware Learning), a novel framework that enables LLMs to learn from token-level mistakes for improved mathematical reasoning.
 
@@ -62,4 +62,23 @@ bash ./script/evaluate.sh
 | | SVAMP | 1,000 |
 | | TabMWP | 1,000 |
 | | CARP_EN | 976 |
+
+## 📚 Citation
+
+If you find this code useful, please cite our paper:
+
+```bibtex
+@article{YU2027105197,
+  title   = {EREAL: Enhancing Mathematical Reasoning through Error-Aware Learning in Large Language Models},
+  journal = {Information Processing & Management},
+  volume  = {64},
+  number  = {2, Part B},
+  pages   = {105197},
+  year    = {2027},
+  issn    = {0306-4573},
+  doi     = {10.1016/j.ipm.2026.105197},
+  url     = {https://www.sciencedirect.com/science/article/pii/S030645732600587X},
+  author  = {Yuqing Yu and Zihao Li and Lixin Zou and Chenliang Li and Qian Wang}
+}
+```
 
